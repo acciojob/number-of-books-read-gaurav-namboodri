@@ -1,7 +1,7 @@
-function numberOfBooksRead() {
+function numberOfBooksRead(library) {
   let count = 0;
-  for (let book in library) {
-    if (library[book].read === true) {
+  for (let i = 0; i < library.length; i++) {
+    if (library[i].readingStatus) {
       count++;
     }
   }
