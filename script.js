@@ -21,6 +21,15 @@ const numberOfBooksRead = () => {
 		console.log("book is readed");
 		
 	}
+	function numberOfBooksRead() {
+  let count = 0;
+  for (let book in library) {
+    if (library[book].read === true) {
+      count++;
+    }
+  }
+  return count;
+}
   // write your code here
 };
 
