@@ -18,10 +18,7 @@ const library = [
 
 const numberOfBooksRead = () => {
 	if (readingstatus==true) {
-		console.log("book is readed")
-		else{
-		console.log("book didnt read yet!!")
-		}
+		console.log("book is readed");
 		
 	}
   // write your code here
